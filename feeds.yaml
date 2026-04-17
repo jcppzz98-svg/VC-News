@@ -1,0 +1,64 @@
+# VC list. Each entry becomes a Google News RSS search.
+# Tweak the `query` field for any firm whose name is ambiguous
+# (we already disambiguated the common ones).
+
+vcs:
+  # Top-tier
+  - { name: "Sequoia Capital",            query: '"Sequoia Capital"' }
+  - { name: "Andreessen Horowitz",        query: '"Andreessen Horowitz" OR a16z' }
+  - { name: "Accel",                      query: '"Accel Partners" OR ("Accel" (fund OR venture OR invest))' }
+  - { name: "Benchmark",                  query: '"Benchmark Capital" OR ("Benchmark" (venture OR partners))' }
+  - { name: "Lightspeed Venture Partners", query: '"Lightspeed Venture Partners"' }
+  - { name: "Greylock Partners",          query: '"Greylock Partners" OR "Greylock"' }
+  - { name: "Founders Fund",              query: '"Founders Fund"' }
+  - { name: "Khosla Ventures",            query: '"Khosla Ventures"' }
+  - { name: "Bessemer Venture Partners",  query: '"Bessemer Venture Partners"' }
+  - { name: "Kleiner Perkins",            query: '"Kleiner Perkins"' }
+
+  # Multi-stage & growth
+  - { name: "General Catalyst",           query: '"General Catalyst"' }
+  - { name: "NEA",                        query: '"New Enterprise Associates" OR "NEA" venture' }
+  - { name: "Index Ventures",             query: '"Index Ventures"' }
+  - { name: "IVP",                        query: '"Institutional Venture Partners" OR "IVP" venture' }
+  - { name: "Battery Ventures",           query: '"Battery Ventures"' }
+  - { name: "Insight Partners",           query: '"Insight Partners"' }
+  - { name: "Sapphire Ventures",          query: '"Sapphire Ventures"' }
+  - { name: "Tiger Global Management",    query: '"Tiger Global"' }
+  - { name: "Dragoneer Investment Group", query: '"Dragoneer"' }
+  - { name: "TPG Growth",                 query: '"TPG Growth"' }
+
+  # Early-stage / seed
+  - { name: "First Round Capital",        query: '"First Round Capital"' }
+  - { name: "Initialized Capital",        query: '"Initialized Capital"' }
+  - { name: "Uncork Capital",             query: '"Uncork Capital"' }
+  - { name: "Floodgate",                  query: '"Floodgate Fund" OR ("Floodgate" (venture OR VC))' }
+  - { name: "SV Angel",                   query: '"SV Angel"' }
+  - { name: "Susa Ventures",              query: '"Susa Ventures"' }
+  - { name: "Haystack Ventures",          query: '"Haystack" (fund OR venture OR "Semil Shah")' }
+  - { name: "Afore Capital",              query: '"Afore Capital"' }
+  - { name: "Precursor Ventures",         query: '"Precursor Ventures"' }
+  - { name: "Pear VC",                    query: '"Pear VC"' }
+
+  # AI / crypto / frontier
+  - { name: "DCVC",                       query: '"DCVC" OR "Data Collective"' }
+  - { name: "Radical Ventures",           query: '"Radical Ventures"' }
+  - { name: "Lux Capital",                query: '"Lux Capital"' }
+  - { name: "Amplify Partners",           query: '"Amplify Partners"' }
+  - { name: "Kindred Ventures",           query: '"Kindred Ventures"' }
+  - { name: "Variant Fund",               query: '"Variant Fund" OR ("Variant" crypto venture)' }
+  - { name: "Polychain Capital",          query: '"Polychain Capital"' }
+  - { name: "Paradigm",                   query: '"Paradigm" (crypto OR "Matt Huang" OR "Fred Ehrsam")' }
+  - { name: "Human Capital",              query: '"Human Capital" ("Armon Dadgar" OR venture OR VC)' }
+  - { name: "Neo",                        query: '"Neo" ("Ali Partovi" OR "venture fund")' }
+
+  # Operators / newer / high-performing
+  - { name: "Tribe Capital",              query: '"Tribe Capital"' }
+  - { name: "Craft Ventures",             query: '"Craft Ventures"' }
+  - { name: "Bond Capital",               query: '"Bond Capital" ("Mary Meeker" OR venture)' }
+  - { name: "Felicis Ventures",           query: '"Felicis"' }
+  - { name: "Menlo Ventures",             query: '"Menlo Ventures"' }
+  - { name: "SignalFire",                 query: '"SignalFire"' }
+  - { name: "Redpoint Ventures",          query: '"Redpoint" venture' }
+  - { name: "Norwest Venture Partners",   query: '"Norwest Venture Partners"' }
+  - { name: "Shasta Ventures",            query: '"Shasta Ventures"' }
+  - { name: "Upfront Ventures",           query: '"Upfront Ventures"' }
